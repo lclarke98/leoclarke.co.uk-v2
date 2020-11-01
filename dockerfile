@@ -1,12 +1,12 @@
 FROM node:12.18.1
-ENV NODE_ENV=production
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY ["package.json", "package-lock.json*", "./"]
+COPY package*.json ./
 
 RUN npm install
 
 COPY . .
 
+EXPOSE 8080
 CMD [ "node", "server.js" ]
