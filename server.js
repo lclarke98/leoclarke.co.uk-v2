@@ -6,7 +6,7 @@ app.use(express.static('static', { extensions: ['html'] }));
 app.use(express.static(path.join(__dirname, 'static')));
 
 //App runs on port 80
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 
 app.listen(port, (err) => {
     if (err) console.log('error', err);
