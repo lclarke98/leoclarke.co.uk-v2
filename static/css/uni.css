@@ -1,0 +1,20 @@
+
+.uni-item{
+    border: #222 solid 2px;
+    margin-right: 10vw;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 98%;
+}
+
+.uni-item-details{
+    width: 50%;
+    position: relative;
+}
+
+.uni-item-picture{
+    width: 50%;
+    position: relative;
+    float: right;
+}

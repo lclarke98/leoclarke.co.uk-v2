@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="shortcut icon" href="/ico/ico2.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/uni.css">
+
+</head>
+
+
+<body>
+  <header>
+    <nav>
+        <div class="header-name">
+          <h1>Leo Clarke</h1>
+        </div>
+
+        <div class="nav-items">
+          <li class="nav-item active" ><a href="uni.html">Uni work</a></li>
+          <li class="nav-item" ><a href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item" ><a href="blog.html">Blog</a></li>
+          <li class="nav-item" ><a href="about.html">About</a></li>
+          <li class="nav-item" ><a href="index.html">Home</a></li>
+        </div>
+    </nav>
+  </header>
+
+
+  <div class="main">
+
+    <div class="info-box">
+      <h1>My time at University</h1>
+      <p>On this page you will find the work i completed at university, these include coursworks and other tasks have have done.</p>
+  </div>
+    
+    <div class="uni-item">
+      <h2>Final Year Project</h2>
+      <div class="uni-item-details"><p>For my final year project I created a Raspberry Pi NAS server. I used the linux based SAMBA package as the server share and used node.js with mySQL, html and css to create the web based user interface. Bash scripts were then used to implement the 
+        changes made to the NAS server via the web interface on the server itself.</p>
+        <a href="https://github.com/lclarke98/Final-Year-Project"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+    <div class="uni-item">
+      <h2>Internet of Things coursework</h2>
+      <div class="uni-item-details"><p>For my IoT coursdework I developed a room temperature and humidity monitoring system. I used two DHT22 temperature and humidity sensors, each connected
+        to an esp8266 microcontroller. These were placed in two different locations in a room and send the data on a time interval to the google IoT core. From there a cloud function would insert the data into a
+        MySQL database. Before the data was displayed on the web interface it was filterd trough a kalman filter which fused the readings from the two sensord to give more accurate readings.
+      </p>
+        <a href="https://github.com/lclarke98/iot-cw"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+    <div class="uni-item">
+      <h2>Scalable Software Engineering</h2>
+      <div class="uni-item-details"><p>My Scalable Software Engineering coursework was split into three tasks which were all related to using the different products on the Google cloud platform:</p>
+        <h3>Task one:</h3>
+        <p>The first task was to create a series of bash scripts to automate the creation of x number of virtual machines and preload them with the required software and files.</p>
+        <a href="https://github.com/lclarke98/vm-scripts"><p>Click here to view the github repository</p></a>
+
+        <h3>Task two:</h3>
+        <p>The second task was to create a api using node.js which stores numbers in a named register. The data was stored using cloud SQL and the api was deployed to th Google app engine.</p>
+        <a href="https://github.com/lclarke98/assignment2"><p>Click here to view the github repository</p></a>
+
+        <h3>Task three:</h3>
+        <p>The third task was intergrate Google OAuth into a node.js application and then deploy it to the Google app engine.</p>
+        <a href="https://github.com/lclarke98/assignment4"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+    <div class="uni-item">
+      <h2>Robotics</h2>
+      <div class="uni-item-details"><p>For the robotics coursework I had to create a simulation using software called vrep and C++. 
+        This simulation simulated a robot picking up a series of boxes off a conveyor belt and sorting them by colour.</p>
+        <a href="https://github.com/lclarke98/iot-cw"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+    <div class="uni-item">
+      <h2>Advanced Programming concepts</h2>
+      <div class="uni-item-details"><p>This was a group coursework where we had to create a box ordering system in java, our application also had 
+        to include an abstract class and also aggregation.
+      </p>
+        <a href="https://github.com/lclarke98/iot-cw"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+    <div class="uni-item">
+      <h2>Introduction to Software Engineering</h2>
+      <div class="uni-item-details"><p>This was a group coursework where we developed a web based communication application for landlords and tennants.
+        The application was developed using HTML, CSS, PHP and MySQL, the applications features included live chat, event schedulling and issue reporting.
+      </p>
+        <a href="https://github.com/lclarke98/iot-cw"><p>Click here to view the github repository</p></a>
+      </div>
+      <div class="uni-item-picture">Picture/caption</div>
+    </div>
+
+  
+  </div>
+
+</body>
+</html>
