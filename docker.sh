@@ -1,4 +1,4 @@
-docker exec -it node-svr bash
+docker exec -it hardcore_bhaskara bash
 
 npm install
 
